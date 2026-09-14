@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "ent_blob",
+  "name": "Blob",
+  "model": "critter_blob",
+  "scale": 1,
+  "trainCategory": "blob",
+  "stats": {
+    "level": 2,
+    "hp": 42,
+    "te": 0,
+    "atk": 5,
+    "def": 1,
+    "tatk": 0,
+    "tdef": 1,
+    "moveMsPerHex": 420,
+    "attackIntervalMs": 1500,
+    "attackRangeHexes": 1,
+    "stepHeight": 10,
+    "element": "neutral",
+    "dodgePct": 6,
+    "perfectDodgePct": 2
+  },
+  "ai": "ai_passive_critter",
+  "skills": ["skill_mob_pounce"],
+  "xp": 12,
+  "loot": [
+    {
+      "chancePct": 35,
+      "item": "item_blob_gel"
+    },
+    {
+      "chancePct": 5,
+      "oneOf": [
+        {
+          "item": "item_pure_water",
+          "weight": 4
+        },
+        {
+          "item": "item_spring_water",
+          "weight": 2
+        },
+        {
+          "item": "item_static_candy",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

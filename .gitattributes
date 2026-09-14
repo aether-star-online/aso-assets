@@ -1,0 +1,7 @@
+# No Git LFS on purpose: a plain clone must get every file.
+* text=auto
+*.glb binary
+*.r16 binary
+*.r8 binary
+*.rgba binary
+*.png binary

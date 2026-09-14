@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "critter_blob",
+  "type": "character",
+  "path": "critter_blob.game-ready.glb",
+  "clips": [
+    "idle:Idle",
+    "walk:Walking",
+    "run:Running",
+    "attack:Attack",
+    "death:Dying Backwards"
+  ],
+  "defaultScale": 1,
+  "loop": false,
+  "source": "critter_blob.raw.glb",
+  "displayName": "Blob",
+  "entity": "entity.json",
+  "ai": "ai.json"
+}

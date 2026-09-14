@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "ai_passive_critter",
+  "archetype": "passive",
+  "onAttacked": "retaliate",
+  "params": {
+    "aggroRadiusHexes": 0,
+    "chaseRangeHexes": 8,
+    "scanIntervalMs": 3000,
+    "wanderRadiusHexes": 7,
+    "wanderRoamHexes": 25,
+    "wanderIntervalMs": [4000, 9000],
+    "rageDurationMs": 12000,
+    "fleeAtHpPct": 0,
+    "helpRadiusHexes": 0,
+    "targetPriority": "attacker"
+  }
+}

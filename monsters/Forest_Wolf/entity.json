@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "ent_forest_wolf",
+  "name": "Forest Wolf",
+  "model": "beast_wolf",
+  "scale": 1,
+  "trainCategory": "wolf",
+  "stats": {
+    "level": 5,
+    "hp": 113,
+    "te": 0,
+    "atk": 11,
+    "def": 4,
+    "tatk": 0,
+    "tdef": 2,
+    "moveMsPerHex": 350,
+    "attackIntervalMs": 1400,
+    "attackRangeHexes": 1,
+    "stepHeight": 10,
+    "element": "neutral",
+    "critPct": 12,
+    "hitPct": 10
+  },
+  "ai": "ai_aggressive_beast",
+  "skills": [
+    "skill_mob_pounce"
+  ],
+  "xp": 40,
+  "essence": {
+    "earth": 2
+  },
+  "loot": [
+    {
+      "chancePct": 3,
+      "item": "item_worn_club"
+    },
+    {
+      "chancePct": 5,
+      "oneOf": [
+        {
+          "item": "item_pure_water",
+          "weight": 4
+        },
+        {
+          "item": "item_spring_water",
+          "weight": 2
+        },
+        {
+          "item": "item_static_candy",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "chancePct": 1,
+      "oneOf": [
+        {
+          "item": "item_crystal_water",
+          "weight": 3
+        },
+        {
+          "item": "item_charged_honey",
+          "weight": 2
+        },
+        {
+          "item": "item_glacier_water",
+          "weight": 1.5
+        },
+        {
+          "item": "item_volt_nectar",
+          "weight": 1
+        },
+        {
+          "item": "item_iron_mint",
+          "weight": 0.5
+        },
+        {
+          "item": "item_swift_mint",
+          "weight": 0.5
+        },
+        {
+          "item": "item_hearty_mint",
+          "weight": 0.5
+        },
+        {
+          "item": "item_sage_mint",
+          "weight": 0.5
+        },
+        {
+          "item": "item_keen_mint",
+          "weight": 0.5
+        },
+        {
+          "item": "item_lucky_mint",
+          "weight": 0.5
+        },
+        {
+          "item": "item_aether_dew",
+          "weight": 0.4
+        },
+        {
+          "item": "item_starlight_tonic",
+          "weight": 0.3
+        },
+        {
+          "item": "item_prism_mint",
+          "weight": 0.3
+        }
+      ]
+    },
+    {
+      "chancePct": 35,
+      "item": "item_wolf_nails"
+    },
+    {
+      "chancePct": 10,
+      "item": "item_wolf_fang"
+    },
+    {
+      "chancePct": 2,
+      "item": "item_alpha_pelt"
+    }
+  ]
+}

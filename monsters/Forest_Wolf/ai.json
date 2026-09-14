@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "ai_aggressive_beast",
+  "archetype": "aggressive",
+  "onAttacked": "retaliate",
+  "params": {
+    "aggroRadiusHexes": 3,
+    "chaseRangeHexes": 10,
+    "scanIntervalMs": 2500,
+    "wanderRadiusHexes": 7,
+    "wanderRoamHexes": 25,
+    "wanderIntervalMs": [5000, 11000],
+    "rageDurationMs": 15000,
+    "fleeAtHpPct": 0,
+    "helpRadiusHexes": 0,
+    "targetPriority": "attacker"
+  }
+}

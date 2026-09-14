@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "beast_wolf",
+  "type": "character",
+  "path": "beast_wolf.game-ready.glb",
+  "clips": [
+    "idle:Idle",
+    "walk:Walking",
+    "run:Running",
+    "attack:Attack",
+    "death:Dying Backwards"
+  ],
+  "defaultScale": 0.75,
+  "loop": false,
+  "source": "beast_wolf.raw.glb",
+  "displayName": "Forest Wolf",
+  "entity": "entity.json",
+  "ai": "ai.json"
+}

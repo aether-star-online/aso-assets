@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "char_corin",
+  "type": "character",
+  "path": "char_corin.game-ready.glb",
+  "clips": [
+    "idle:Idle",
+    "walk:Walking",
+    "run:Running",
+    "attack:Attack",
+    "death:Dying Backwards",
+    "skill_ground_slam:AOE Slam",
+    "skill_ground_slam_charge:AOE Charge",
+    "skill_ground_slam_hold:AOE Hold"
+  ],
+  "defaultScale": 1,
+  "loop": false,
+  "source": "char_corin.raw.glb",
+  "displayName": "Corin",
+  "notes": "Neutral base Adventurer (male). Reference character for the humanoid pipeline."
+}

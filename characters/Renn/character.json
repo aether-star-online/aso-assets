@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "char_renn",
+  "type": "character",
+  "path": "char_renn.game-ready.glb",
+  "clips": [
+    "idle:Idle",
+    "walk:Walking",
+    "run:Running",
+    "attack:Attack",
+    "death:Dying Backwards",
+    "cast:Cast Release",
+    "cast_charge:Cast Raise",
+    "cast_hold:Cast Hold",
+    "skill_ground_slam:Cast Release",
+    "skill_ground_slam_charge:Cast Raise",
+    "skill_ground_slam_hold:Cast Hold"
+  ],
+  "defaultScale": 1,
+  "loop": false,
+  "source": "char_renn.raw.glb",
+  "displayName": "Renn",
+  "notes": "Dark Thief. Hand-built body."
+}
