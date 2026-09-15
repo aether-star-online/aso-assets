@@ -11,7 +11,7 @@ to the public domain under CC0 1.0.
 | File | What |
 | --- | --- |
 | `character.json` | the asset manifest entry the game reads: `id` (lowercase, `char_…`), `type: "character"`, `path` (the game-ready GLB, relative to this folder), `clips` (`"role:Clip Name"` pairs — `idle`, `walk`, `run`, `attack`, `death` are required), `defaultScale`, `loop` |
-| `<name>.game-ready.glb` | the shipped model: ≤ 8k triangles, ≤ 1024px textures, WebP or PNG inside |
+| `<name>.game-ready.glb` | the shipped model: ≤ 8k triangles, ≤ 1024px textures. **Textures inside must be PNG or JPEG** (the Forge decodes those directly). The game's own pipeline emits WebP here plus a `.u.glb` twin (KTX2 textures) for Unity; if your GLB uses WebP you must also provide that `<name>.game-ready.u.glb` twin or it renders as a placeholder capsule |
 | `<name>.raw.glb` | your source export with the mesh and every animation clip, so it can be re-optimized later |
 
 ### A monster — `monsters/<Name>/`
